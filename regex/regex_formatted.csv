@@ -1,0 +1,18 @@
+,Category,Subcategory,Regex
+0,Question,Operational question,([Hh]ow (can I|to|do))|([Ww]here)|(What should|shall|can)|(What am I supposed to)|(Should I)
+1,Question,Conceptual question,([Ww]hy)|(([iI]s|[Ww]hether) (it|this) (possible|ok))|([Ii]s there (a|any) way)|([Ww]hat is the)|([Cc]an I (use|apply))
+2,Clarification,Goal,((((would|I\'d) like)|want) to)|my (goal|purpose)|(I aim)
+3,Clarification,Workaround,(I (have|had)? (tried|attempted))|([Mm]y approach)|(doing wrong)
+4,Clarification,Indication of error,(^\?)((a|an|get(s)?|got|throw(ing)?|catch(es)?|caught|has|have|had|receive([ds])?|following) error|exception)
+5,Clarification,Discrepancy,^([Ww]hy)((do|does|did) not work)|(not working)|((failed|fails) to)|((have|get|got|had) (a|the)? problem(s)?)
+6,Discussion,Confirmation of same issue,(have|had) (the same|similar) (issue|problem|question)
+7,Discussion,Reference,"([Bb]ased on)|([Aa]ccording to)|([ ]@\w{2,})|([Ff]ollowing up on)|((As|like) mentioned)"
+8,Discussion,Requesting help,(([Cc]an|[Cc]ould) (someone|anyone|somebody))|(Does anyone know)|(did I do wrong)|(What\'s wrong)
+9,Discussion,Asking for opinions,(What do you think about)|(Do you think)|(What (is|\'s) your opinion)
+10,Solution & Review,Identifying problem,^(\?\!.*(how|what|is there|why|what))^(try to)(([Pp]roblems* (is|are))|([Rr]eason)|([Cc]ause)|(mistake (is|was)))
+11,Solution & Review,Suggestion,(suggest)|(suggestion)|(How about)|((It) (is|(would be)) (better|simpler|easier))|(Maybe (use|try))|([Yy]ou (can|may))
+12,Solution & Review ,Instruction,([T|t]est cases*)|((Have|Did) you (try|tried))|((An easy|A simple|correct) way is)
+13,Resources,Domain,"(?:(?:http:\/\/)|(?:https:\/\/))?(?:[\w](?:[\w\-]{0,61}[\w])?\.)+[a-zA-Z]{2,6}(?:\/)"
+14,Resources,Email,[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(?:\.[a-zA-Z0-9_-]+)
+15,Other,Greetings,"(hi|hello|hey\w{3,},$)|^regards,"
+16,Other,Thanks,"thanks*(.|,|!)*$"

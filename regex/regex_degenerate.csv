@@ -1,0 +1,19 @@
+Category CUSTOM-DELIMITER Subcategory CUSTOM-DELIMITER Regex
+Question CUSTOM-DELIMITER “How-to” questions CUSTOM-DELIMITER [Hh]ow (can I|to|do)
+Question CUSTOM-DELIMITER Other interrogative questions CUSTOM-DELIMITER [Ww]hy|[iI]s it (possible|ok)|[Ii]s there|what is|[Cc]an I|I wonder|[Ww]hether|[Ww]here|(Can|Could) (anyone|anybody)
+Clarification CUSTOM-DELIMITER Goal CUSTOM-DELIMITER (would|I'd) like to|goal|purpose
+Clarification CUSTOM-DELIMITER Workaround CUSTOM-DELIMITER I have (try|tried)|my approach
+Discrepancy CUSTOM-DELIMITER Indication of errors CUSTOM-DELIMITER [Ee]rror|exception|debug
+Discrepancy CUSTOM-DELIMITER Explanation of encountered problem CUSTOM-DELIMITER (do|does|did) not work|doing wrong|the problems* (is|are)|not working|
+Discussion CUSTOM-DELIMITER Confirmation of same issue CUSTOM-DELIMITER (have|had) (the same|similar) (issue|problem|question)
+Discussion CUSTOM-DELIMITER Internal and conceptual reference CUSTOM-DELIMITER based on|according to|[ ]@\w{2,}|[Ff]ollowing up on|
+Discussion CUSTOM-DELIMITER Giving opinion CUSTOM-DELIMITER I think|[Mm]aybe
+Discussion CUSTOM-DELIMITER Asking for help CUSTOM-DELIMITER [Cc]an|[Cc]ould someone|anyone|somebody
+Solution CUSTOM-DELIMITER Providing solutions CUSTOM-DELIMITER ^(?!.*(how|what|is there|why|what))^(try to)|(may|might|can) (try|solve|fix)|I suggest|my suggestion|(Have|Did) you try
+Review CUSTOM-DELIMITER Providing test cases CUSTOM-DELIMITER [T|t]est cases*
+Review CUSTOM-DELIMITER Improvement CUSTOM-DELIMITER better|best|more efficient|simpler
+Review CUSTOM-DELIMITER Updates CUSTOM-DELIMITER update|upgrade|(new|modified) version
+Resources CUSTOM-DELIMITER Domain CUSTOM-DELIMITER (?:(?:http:\/\/)|(?:https:\/\/))?(?:[\w](?:[\w\-]{0,61}[\w])?\.)+[a-zA-Z]{2,6}(?:\/)
+Resources CUSTOM-DELIMITER Email CUSTOM-DELIMITER [a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(?:\.[a-zA-Z0-9_-]+)
+Other CUSTOM-DELIMITER Greetings CUSTOM-DELIMITER (hi|hello|hey\w{3,},$)|^regards,
+Other CUSTOM-DELIMITER Thanks CUSTOM-DELIMITER thanks*(.|,|!)*$

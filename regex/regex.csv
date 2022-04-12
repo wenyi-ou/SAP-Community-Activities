@@ -1,0 +1,19 @@
+Category CUSTOM-DELIMITER Subcategory CUSTOM-DELIMITER Regex
+Question CUSTOM-DELIMITER Operational question CUSTOM-DELIMITER ([Hh]ow (can I|to|do))|([Ww]here)|(What should|shall|can)|(What am I supposed to)|(Should I)
+Question CUSTOM-DELIMITER Conceptual question CUSTOM-DELIMITER ([Ww]hy)|(([iI]s|[Ww]hether) (it|this) (possible|ok))|([Ii]s there (a|any) way)|([Ww]hat is the)|([Cc]an I (use|apply))
+Clarification CUSTOM-DELIMITER Goal CUSTOM-DELIMITER ((((would|I\'d) like)|want) to)|my (goal|purpose)|(I aim)
+Clarification CUSTOM-DELIMITER Workaround CUSTOM-DELIMITER (I (have|had)? (tried|attempted))|([Mm]y approach)|(doing wrong)
+Clarification CUSTOM-DELIMITER Indication of error CUSTOM-DELIMITER (^\?)((a|an|get(s)?|got|throw(ing)?|catch(es)?|caught|has|have|had|receive([ds])?|following) error|exception)
+Clarification CUSTOM-DELIMITER Discrepancy CUSTOM-DELIMITER ^([Ww]hy)((do|does|did) not work)|(not working)|((failed|fails) to)|((have|get|got|had) (a|the)? problem(s)?)
+Discussion CUSTOM-DELIMITER Confirmation of same issue CUSTOM-DELIMITER (have|had) (the same|similar) (issue|problem|question)
+Discussion CUSTOM-DELIMITER Reference CUSTOM-DELIMITER ([Bb]ased on)|([Aa]ccording to)|([ ]@\w{2,})|([Ff]ollowing up on)|((As|like) mentioned)
+Discussion CUSTOM-DELIMITER Requesting help CUSTOM-DELIMITER (([Cc]an|[Cc]ould) (someone|anyone|somebody))|(Does anyone know)|(did I do wrong)|(What\'s wrong)
+Discussion CUSTOM-DELIMITER Asking for opinions CUSTOM-DELIMITER (What do you think about)|(Do you think)|(What (is|\'s) your opinion)
+Solution & Review CUSTOM-DELIMITER Identifying problem CUSTOM-DELIMITER ^(\?\!.*(how|what|is there|why|what))^(try to)(([Pp]roblems* (is|are))|([Rr]eason)|([Cc]ause)|(mistake (is|was)))
+Solution & Review CUSTOM-DELIMITER Suggestion CUSTOM-DELIMITER (suggest)|(suggestion)|(How about)|((It) (is|(would be)) (better|simpler|easier))|(Maybe (use|try))|([Yy]ou (can|may))
+Solution & Review  CUSTOM-DELIMITER Instruction CUSTOM-DELIMITER ([T|t]est cases*)|((Have|Did) you (try|tried))|((An easy|A simple|correct) way is)
+Resources CUSTOM-DELIMITER Domain CUSTOM-DELIMITER (?:(?:http:\/\/)|(?:https:\/\/))?(?:[\w](?:[\w\-]{0,61}[\w])?\.)+[a-zA-Z]{2,6}(?:\/)
+Resources CUSTOM-DELIMITER Email CUSTOM-DELIMITER [a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(?:\.[a-zA-Z0-9_-]+)
+Other CUSTOM-DELIMITER Greetings CUSTOM-DELIMITER (hi|hello|hey\w{3,},$)|^regards,
+Other CUSTOM-DELIMITER Thanks CUSTOM-DELIMITER thanks*(.|,|!)*$
+

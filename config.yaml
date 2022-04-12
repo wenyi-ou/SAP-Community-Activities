@@ -1,0 +1,31 @@
+regex-file: regex/regex.csv
+regex-file-columns:
+    regex: Regex
+    category: Category
+    subcategory: Subcategory
+
+# query-file: query/qa_with_comments.sql
+query-file: query/sample.sql
+
+input-data:
+    database: mysql+pymysql://root:<password>@localhost:3306/sap
+    # file-path: input/complete_qa_with_cmts.txt
+    # file-path: input/sample100k.txt
+    file-path: input/qa.txt
+    contributions:
+        - QuestionTitle
+        - QuestionText
+        - Answers
+        - QuestionComments
+        - AnswerComments
+
+output-data:
+    file-path: output/output_processed.csv
+    unmatched: output/output_matched_only.csv
+    categorized-primary: output/output_per_categories.csv
+    categorized-secondary: output/output_per_subcategories.csv
+
+statistics:
+    category: statistics/per_categories.csv
+    subcategory: statistics/per_subcategories.csv
+    statistics-only: statistics/simple_statistics.csv
